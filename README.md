@@ -155,6 +155,5 @@ val insertFromDelta = step6.selectExpr(formattedCol:_*)
 val unionAllResults = deltaUpdates.union(step2b).union(exipredRecords).union(step3).union(insertFromDelta)
 
 
-
-
+unionAllResults.write.parquet("/FileStore/tables/StagingData")
 
