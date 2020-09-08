@@ -17,6 +17,7 @@ import org.apache.spark.sql.expressions.Window
 -------------------START------------------
 -------------------START TEST------------------
 -------------------START------------------
+-------------------START------------------
 LOAD THE MASTER DATA FILE [SCHEMA - id, name, dept, city, etl_crtd, eff_start_dttm, eff_end_dttm, current_flag, checksum_nbr, surrogate_key]
 PK - id
 TS(TimeStamp) - etl_crtd
